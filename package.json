@@ -1,0 +1,13 @@
+{
+  "name": "reads.an.employee.name.and.salary.and.find.the.average",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^2.0.7",
+    "readline-sync": "^1.4.10"
+  },
+  "scripts": {
+    "start": "nodemon main.js"
+  }
+}
