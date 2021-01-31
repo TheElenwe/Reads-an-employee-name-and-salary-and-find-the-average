@@ -11,7 +11,7 @@ for (employee = 0; employee < 10; employee++) {
 avg = sum / 4;
 console.log(` the total amount of salaries is ${avg}$`);
 while (true) {
-  salary = String(readlineSync.question("give numbers"));
+  salary = String(readlineSync.question("give numbers "));
   if (salary === "quit") {
     break;
   }
@@ -22,4 +22,4 @@ while (true) {
     console.log("salary is bellow average ");
   }
 }
-console.log(employee);
+console.log(`Total Employees: ${employee}`);
